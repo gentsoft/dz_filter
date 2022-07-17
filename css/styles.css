@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #ededed;
+}
+
+.portfolio__filter,
+.portfolio__list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.portfolio__filter li,
+.portfolio__list li {
+    list-style-type: none;
+}
+
+.portfolio__filter li:hover {
+    background-color: rgb(121, 121, 177);
+    cursor: pointer;
+}
+
+.activBat {
+    background-color: black;
+    color: #ededed;
+}
+
+.listNone {
+    display: none;
+}
